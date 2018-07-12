@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ColorMath</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/colorMath.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+</head>
+<body>
+	<h1>ColorMath</h1>
+	<br>
+
+	<div class="section-1">
+		<div class="box" id="box1">#</div>
+		<div class="box" id="box2">#</div>
+		<div class="box" id="box3">#</div>
+		<div class="box" id="box4">#</div>
+		<div class="box" id="box5">#</div>
+		<div class="box" id="box6">#</div>
+		<div class="box" id="box7">#</div>
+		<div class="box" id="box8">#</div>
+		<div class="box" id="box9">#</div>
+		<div class="box" id="box10">#</div>
+	</div>
+	<br>
+	<center><button id="startButton">Start/Reset</button></center>
+	<br>
+
+	<div class=section-2>
+		<p class="section-2">
+			Red + Gold = <input type="text" id="firstQuestion" name="name" pattern=[0-100] placeholder="Answer">
+			<button id="checkButton1">Check</button>
+		</p>
+		<p class="section-2">
+			Blue - Green = <input type="text" id="secondQuestion" name="name" pattern=[0-100] placeholder="Answer"> 
+			<button id="checkButton2">Check</button>
+		</p>
+		<p class="section-2">
+			Black x Pink = <input type="text" id="thirdQuestion" name="name" pattern=[0-100] placeholder="Answer"> 
+		<button id="checkButton3">Check</button>
+		</p>
+	</div>
+
+	<div class=section-3>
+		<p><b><em>Instructions</em></b>
+			<br>
+			<br>
+			1. There are 10 different color blocks. At the start of game, each block will display a number 1-10, inclusive. This number is the color block's value.
+			<br>
+			<br>
+			2. After a period of time, numbers will disappear.
+			<br>
+			<br>
+			3. Answers to questions below must be correct.
+			<br>
+			<br>
+			NOTE: Restarting/Resetting game will generate a *new* set of numbers.
+		</p>
+	</div>
+
+	<script type="text/javascript" src="assets/js/colorMath.js"></script>
+</div>
+</body>
+</html>
